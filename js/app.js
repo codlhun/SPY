@@ -1,6 +1,6 @@
 // Fetch current SPY price using Alpha Vantage API
 async function fetchCurrentPrice(symbol = 'SPY') {
-    const apiKey = 'YOUR_ALPHA_VANTAGE_API_KEY';
+    const apiKey = 'V818ZPJ8Y3M2U659';
     const url = `https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=${symbol}&apikey=${apiKey}`;
     
     try {
